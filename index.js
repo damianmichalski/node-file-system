@@ -1,6 +1,5 @@
 var fs = require('fs');
 var colors = require('colors');
-
 fs.readdir('./', function(err, data) {
     console.log('Dane przed zapisem!'.blue);
     console.log(data);
